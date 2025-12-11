@@ -62,11 +62,12 @@ onMounted(() => {
 });
 
 useHead({
-  title: post?.value?.title || 'Загрузка...',
-  meta: [
+  title: computed(() => post.value?.title || 'Загрузка...'),
+  meta: computed(() => [
     {
       name: 'description',
+      content: post.value?.description || ''
     },
-  ],
+  ]),
 });
 </script>
