@@ -7,8 +7,8 @@
         </NuxtLink>
 
         <nav class="header__navigation">
-          <NuxtLink to="/works" class="nav-item">Works</NuxtLink>
-          <NuxtLink to="/about" class="nav-item">About</NuxtLink>
+          <NuxtLink to="/" class="nav-item">Works</NuxtLink>
+          <NuxtLink to="/" class="nav-item">About</NuxtLink>
         </nav>
 
         <div class="header__actions">
@@ -41,9 +41,7 @@
               </div>
             </div>
           </div>
-          <NuxtLink to="/contact" class="header__contact-button"
-            >Let's work</NuxtLink
-          >
+          <NuxtLink to="/" class="header__contact-button">Let's work</NuxtLink>
         </div>
       </div>
     </div>
