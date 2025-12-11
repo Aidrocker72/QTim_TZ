@@ -1,0 +1,31 @@
+{
+  "name": "qtim-blog",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint components composables layouts pages plugins server composables --ext .ts,.js,.vue",
+    "lint:fix": "eslint components composables layouts pages plugins server composables --ext .ts,.js,.vue --fix"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.1592",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@types/node": "^25.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-vue": "^9.33.0",
+    "nuxt3-svg-sprite-builder": "^1.0.7",
+    "sass-embedded": "^1.95.1",
+    "unplugin-vue-components": "^30.0.0",
+    "vite-svg-loader": "^5.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+/* assets/css/fonts.css */
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; /* ← критически важно для производительности */
+  src: url('~/assets/fonts/tt-commons/TTCommons-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~/assets/fonts/tt-commons/TTCommons-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~/assets/fonts/tt-commons/TTCommons-Bold.woff2') format('woff2');
+}

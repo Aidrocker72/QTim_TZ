@@ -1,0 +1,25 @@
+// Основной SCSS файл
+
+// Переменные
+@use './variables';
+
+// Шрифты
+@use './fonts';
+
+// Сброс стилей
+@use './reset';
+
+// Общие стили
+@use './globals';
+
+// Компоненты
+@use './components/post-card';
+@use './components/post-list';
+@use './components/pagination';
+@use './components/header';
+@use './components/skeleton';
+@use './components/footer';
+
+// Страницы
+@use './pages/index';
+@use './pages/post-detail';
